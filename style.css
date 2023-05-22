@@ -1,0 +1,79 @@
+.navbar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #000000;
+      overflow: hidden;
+    }
+    
+    /* Style for the navigation tabs */
+    .navbar a {
+      float: left;
+      display: block;
+      color: #FFFFFF;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    /* Style for the active tab */
+    .navbar a.active {
+      background-color: #FF0000	;
+    }
+    
+    /* Clear floats after the navigation bar */
+    .navbar::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    /* Style for the bottom navigation */
+    .bottomnav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: bottom;
+      bottom: 0;
+      width: 100%;
+      background-color: #000000;
+      overflow: hidden;
+    }
+    
+    /* Media query for small screens */
+    @media screen and (max-width: 600px) {
+      .navbar a {
+        float: none;
+        width: 100%;
+      }
+    }
+@font-face {
+    src: url(Fonts/Lasting_Sketch.ttf);
+    font-family: LastingSketch;
+}
+@font-face {
+    src: url(Fonts/BebasNeue.ttf);
+    font-family: BebasNeue;
+}
+
+
+* {
+       margin: 0;
+       padding: 0;
+       border: 0;     
+}
+.margin {
+    margin:  0;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 1500%;
+                color: #f50000;
+             letter-spacing: 3px;
+            font-family: LastingSketch;
+        }
+p{
+    font-size: 50px;
+    font-family: BebasNeue;
+}
